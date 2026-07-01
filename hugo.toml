@@ -2,4 +2,7 @@ baseURL = 'https://reymon.dev/'
 languageCode = 'en-us'
 title = 'Reymon Dev'
 theme = "PaperMod"
-publishDir = "docs"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
